@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 
 def home_view(request):
-    return HttpResponse('Boa noite')
+    return render(request, 'home.html')
 
 
 def contato_view(request):
