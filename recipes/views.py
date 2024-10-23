@@ -6,12 +6,5 @@ from django.http import HttpResponse
 
 
 def home_view(request):
-    return render(request, 'usuarios\home.html')
+    return render(request, 'recipes/home.html', context={'name': 'Rafaela Simioni de Ávila'})
 
-
-def contato_view(request):
-    return HttpResponse('Contato')
-
-def sobre_view(request):
-    return HttpResponse('Essa é a página SOBRE ')
-    #return HTTP response
