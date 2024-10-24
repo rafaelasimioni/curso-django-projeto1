@@ -6,5 +6,5 @@ from django.http import HttpResponse
 
 
 def home_view(request):
-    return render(request, 'recipes/home.html', context={'name': 'Rafaela Simioni de Ávila'})
+    return render(request, 'recipes/pages/home.html', context={'name': 'Rafaela Simioni de Ávila'})
 
