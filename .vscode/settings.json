@@ -1,0 +1,53 @@
+{
+    "workbench.editorAssociations": {
+        "*.rb": "default",
+        "*.gz": "default",
+        "*.whl": "default"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.editor.empty.hint": "hidden",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "workbench.statusBar.visible": false,
+    "files.autoSave": "afterDelay",
+    "cmake.configureOnOpen": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.activityBar.location": "bottom",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.colorTheme": "OM Theme (No Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.enablePreview": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "python.terminal.activateEnvironment: True"
+    ],
+    "git.suggestSmartCommit": false,
+    "python.defaultInterpreterPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\curso-django-projeto1\\venv\\Scripts\\python.exe",
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": ["-ExecutionPolicy", "Bypass", "-NoExit", "-Command", "& { . 'C:/Users/rafae/curso-django-projeto1/curso-django-projeto1/venv/Scripts/Activate.ps1' }"]
+        },
+        "Command Prompt": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": ["/k", "C:/Users/rafae/byciclist/venv/Scripts/activate.bat"]
+        }
+    }
+}
