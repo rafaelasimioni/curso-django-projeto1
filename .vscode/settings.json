@@ -34,20 +34,24 @@
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
     },
-    "workbench.settings.applyToAllProfiles": [
-        "python.terminal.activateEnvironment: True"
-    ],
     "git.suggestSmartCommit": false,
+    
+    // Configuração para ativar o ambiente virtual automaticamente
+    "python.terminal.activateEnvironment": true,
+    
+    // Caminho padrão do interpretador Python
     "python.defaultInterpreterPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\curso-django-projeto1\\venv\\Scripts\\python.exe",
 
+    // Configuração do perfil de terminal
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
-            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-            "args": ["-ExecutionPolicy", "Bypass", "-NoExit", "-Command", "& { . 'C:/Users/rafae/curso-django-projeto1/curso-django-projeto1/venv/Scripts/Activate.ps1' }"]
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
         "Command Prompt": {
-            "path": "C:\\Windows\\System32\\cmd.exe",
-            "args": ["/k", "C:/Users/rafae/byciclist/venv/Scripts/activate.bat"]
+            "path": "C:\\Windows\\System32\\cmd.exe"
         }
-    }
+    },
+
+    // Terminal padrão
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
 }
