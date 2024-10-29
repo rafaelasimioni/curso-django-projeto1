@@ -40,7 +40,7 @@
     "python.terminal.activateEnvironment": true,
     
     // Caminho padrão do interpretador Python
-    "python.defaultInterpreterPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\curso-django-projeto1\\venv\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\rafae\\curso-django-projeto1\\curso-django-projeto1\\venv\\Scripts\\python.exe",
 
     // Configuração do perfil de terminal
     "terminal.integrated.profiles.windows": {
