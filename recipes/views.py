@@ -8,3 +8,7 @@ from django.http import HttpResponse
 def home_view(request):
     return render(request, 'recipes/pages/home.html',context={'name': 'Rafaela Simioni de Ávila'})
 
+
+
+def recipe(request,id):
+    return render(request, 'recipes/pages/home.html',context={'name': 'Rafaela Simioni de Ávila'})
