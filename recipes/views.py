@@ -11,4 +11,4 @@ def home_view(request):
 
 
 def recipe(request,id):
-    return render(request, 'recipes/pages/home.html',context={'name': 'Rafaela Simioni de Ávila'})
+    return render(request, 'recipes/pages/recipe-view.html',context={'name': 'Rafaela Simioni de Ávila'})
